@@ -1,0 +1,705 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<title>Hostel Management System (HMS)</title>
+<link rel=dataStoreItem href="Why%20HMS_files/item0011.xml"
+target="Why%20HMS_files/props012.xml">
+<link rel=dataStoreItem href="Why%20HMS_files/item0013.xml"
+target="Why%20HMS_files/props014.xml">
+<link rel=dataStoreItem href="Why%20HMS_files/item0015.xml"
+target="Why%20HMS_files/props016.xml">
+<style>
+<!--
+h1 {
+	line-height: 110%;
+	page-break-after: avoid;
+	font-size: 15.0pt;
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+	font-weight: normal;
+}
+h2 {
+	line-height: 110%;
+	page-break-after: avoid;
+	font-size: 11.0pt;
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+h3 {
+	line-height: 110%;
+	page-break-after: avoid;
+	font-size: 11.0pt;
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+	font-weight: normal;
+}
+h4 {
+	line-height: 110%;
+	page-break-after: avoid;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+	font-weight: normal;
+	font-style: italic;
+}
+h5 {
+	line-height: 110%;
+	page-break-after: avoid;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #00505C;
+	font-weight: normal;
+}
+h6 {
+	line-height: 110%;
+	page-break-after: avoid;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #004F5B;
+	font-weight: normal;
+	font-style: italic;
+}
+p.MsoToc1, li.MsoToc1, div.MsoToc1 {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoToc2, li.MsoToc2, div.MsoToc2 {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoToc3, li.MsoToc3, div.MsoToc3 {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+	font-style: italic;
+}
+p.MsoHeader, li.MsoHeader, div.MsoHeader {
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoFooter, li.MsoFooter, div.MsoFooter {
+	text-align: right;
+	font-size: 8.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+	text-transform: uppercase;
+}
+p.MsoCaption, li.MsoCaption, div.MsoCaption {
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+	font-style: italic;
+}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet {
+	text-indent: -18.0pt;
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595955;
+}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber {
+	text-indent: -18.0pt;
+	line-height: 110%;
+	tab-stops: list 18.0pt;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoListNumberCxSpFirst, li.MsoListNumberCxSpFirst, div.MsoListNumberCxSpFirst {
+	text-indent: -18.0pt;
+	line-height: 110%;
+	tab-stops: list 18.0pt;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoListNumberCxSpMiddle, li.MsoListNumberCxSpMiddle, div.MsoListNumberCxSpMiddle {
+	text-indent: -18.0pt;
+	line-height: 110%;
+	tab-stops: list 18.0pt;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoListNumberCxSpLast, li.MsoListNumberCxSpLast, div.MsoListNumberCxSpLast {
+	text-indent: -18.0pt;
+	line-height: 110%;
+	tab-stops: list 18.0pt;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoTitle, li.MsoTitle, div.MsoTitle {
+	text-align: center;
+	font-size: 30.0pt;
+	font-family: "Constantia", serif;
+	color: #007789;
+}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst {
+	text-align: center;
+	font-size: 30.0pt;
+	font-family: "Constantia", serif;
+	color: #007789;
+}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle {
+	text-align: center;
+	font-size: 30.0pt;
+	font-family: "Constantia", serif;
+	color: #007789;
+}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast {
+	text-align: center;
+	font-size: 30.0pt;
+	font-family: "Constantia", serif;
+	color: #007789;
+}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle {
+	text-align: center;
+	line-height: 110%;
+	font-size: 13.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+	text-transform: uppercase;
+}
+a:link, span.MsoHyperlink {
+	color: #EB8803;
+	text-decoration: underline;
+	text-underline: single;
+}
+a:visited, span.MsoHyperlinkFollowed {
+	color: #5F7791;
+	text-decoration: underline;
+	text-underline: single;
+}
+em {
+	color: #007789;
+	font-style: normal;
+}
+p {
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate {
+	font-size: 8.0pt;
+	font-family: "Tahoma", sans-serif;
+	color: #595959;
+}
+span.MsoPlaceholderText {
+	color: gray;
+}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing {
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoQuote, li.MsoQuote, div.MsoQuote {
+	text-align: center;
+	line-height: 110%;
+	font-size: 13.0pt;
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+	font-style: italic;
+}
+p.MsoBibliography, li.MsoBibliography, div.MsoBibliography {
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading {
+	line-height: 110%;
+	page-break-after: avoid;
+	font-size: 15.0pt;
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+}
+span.Heading1Char {
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+}
+span.Heading2Char {
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+	text-transform: uppercase;
+}
+span.Heading3Char {
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+}
+span.Heading4Char {
+	font-family: "Constantia", serif;
+	color: #00A0B8;
+	font-style: italic;
+}
+span.Heading5Char {
+	font-family: "Constantia", serif;
+	color: #00505C;
+}
+span.Heading6Char {
+	font-family: "Constantia", serif;
+	color: #004F5B;
+	font-style: italic;
+}
+p.msonormal0, li.msonormal0, div.msonormal0 {
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+span.FooterChar {
+	text-transform: uppercase;
+}
+span.TitleChar {
+	font-family: "Constantia", serif;
+	color: #007789;
+}
+span.SubtitleChar {
+	font-family: "Constantia", serif;
+	text-transform: uppercase;
+}
+span.BalloonTextChar {
+	font-family: "Tahoma", sans-serif;
+}
+span.NoSpacingChar {
+	font-family: "Constantia", serif;
+	color: windowtext;
+}
+span.QuoteChar {
+	color: #00A0B8;
+	font-style: italic;
+}
+p.ContactInfo, li.ContactInfo, div.ContactInfo {
+	text-align: center;
+	line-height: 110%;
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+.MsoChpDefault {
+	font-size: 10.0pt;
+	font-family: "Constantia", serif;
+	color: #595959;
+}
+-->
+avi{ 
+		font-family: alex-brush, cursive;
+		font-size: 35;
+	    text-decoration-style: wavy;
+	}
+avik{
+	    font-family: smythe, serif;
+	    font-size: 65;
+	}
+ak{
+	font-family: aguafina-script, cursive;
+	font-size: 30;
+	color:black;
+	text-decoration-style: solid;
+	cursor: pointer;
+	}
+.btn{
+	font-family:"aguafina-script",serif;
+	font-size: 30px;
+	font-weight: 400;
+	background-color:#B655D3;
+	height: inherit;
+	color:aqua;
+	width: inherit;
+	margin-top: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	
+	}
+	.btn:hover{
+		background-color:#952BB4 ;
+		box-shadow: 2px 3px 4px 1px grey;
+	}
+	.description{
+	font-family: antic,sans-serif;
+		font-size:30;
+		font-weight: lighter;}
+	.designation{
+		font-family: abel , sans-serif;
+		font-size:25;
+		font-weight: Bold;	
+			
+		}
+
+	.footer-contact-banner-title{font-size:4em;font-weight:700;padding-top: 20px;margin-top: 20px;margin-bottom:20px}#footer-contact-note{clear:both;background-color:#01a2c3;color:#f7f7f7;padding:80px 0 80px 0;text-align:center;font-family:"Segoe UI",Optima,Helvetica,Arial,sans-serif}#footer-photo{display:inline-block;width:100px;height:100px}#footer-photo img{border-radius:50%;border:1px solid #018eab}#footer-intro{display:inline-block;width:50%;padding:0 30px 0 40px;vertical-align:middle;text-align:left;font-size:1.1em}#footer-contact-navigation{zoom:1;width:120px;border-radius:3px;border:2px solid;border-color:#f7f7f7 #f7f7f7 #f7f7f7;padding:10px 40px;cursor:pointer;color:#f7f7f7;text-transform:uppercase;font-weight:bold;letter-spacing:2px}#footer-button-container{display:inline-block;vertical-align:text-top}#footer-contact-navigation:hover{background:#f7f7f7;zoom:1;width:120px;border-radius:3px;border:2px solid;border-color:#f7f7f7 #f7f7f7 #f7f7f7;padding:10px 40px;cursor:pointer;color:#01a2c3}#footer{clear:both;background-color:#f7f7f7;padding:60px 0 60px 0;text-align:center;font-size:.9em;font-family:"Segoe UI",Optima,Helvetica,Arial,sans-serif}#footer-bottom a{color:#3d3d3b;text-decoration:underline}#footer ul{padding-left:0}
+	.fheading{
+		
+		font-family:  coustard, serif;
+		font-size: 18;
+	}
+	
+	.follow{margin:60px 0 40px 0}.follow a{padding-right:30px}.follow>a img{border:1px dashed #3d3d3b;padding:5px;border-radius:25px}#footer-menu li{display:inline-block;margin:0 20px 20px 0;border-radius:20px}#footer-menu>li>a{color:#000;padding:10px 40px;display:block}#footer-menu>li>a:hover{color:#009688}
+</style>
+<script src="//use.edgefonts.net/alex-brush;aguafina-script;smythe;fondamento;glass-antiqua;almendra-sc;coustard;dorsa;qwigley;antic;abel;advent-pro;arizonia.js"></script>
+</head>
+
+<body lang=EN-US link="#EB8803" vlink="#5F7791">
+<div id="credits" style='display: none; position: absolute; border-color: red; left: 9px; top: 126px; height: 254%; width: 97%; z-index: 10; padding: 10px; background-color: #F5F5F5; border-color: cyan; border-radius: 3px; box-shadow: 4px 8px 9px 6px grey;'>
+<p align='right'><img src='img/close_icon.png' onClick="hide()" style="cursor: pointer" /></p>
+<script>
+function hide(){
+	var x = document.getElementById('credits');
+        x.style.display = 'none';
+    }
+function show(){
+	var x = document.getElementById('credits');
+        x.style.display = 'block';
+    }
+	function show_darrow(){
+	var x = document.getElementById('down');
+        x.style.display = 'inline';
+    }
+	function show_czone(){
+	var x = document.getElementById('czone');
+        if(x.style.display=='none')
+		  x.style.display = 'block';
+		else
+		  x.style.display = 'none';
+    }
+	function show_ddarrow(){
+	var x = document.getElementById('ddown');
+        x.style.display = 'inline';
+    }
+	function show_dczone(){
+	var x = document.getElementById('dczone');
+        if(x.style.display=='none')
+		  x.style.display = 'block';
+		else
+		  x.style.display = 'none';
+    }
+	function show_avi_desc(){
+		var q = document.getElementById('cc');
+        if(q.style.display=='none')
+		  q.style.display = 'inline';
+		else
+		  q.style.display = 'none';
+    var w = document.getElementById('bk');
+        if(w.style.display=='none')
+		  w.style.display = 'inline';
+		else
+		  w.style.display = 'none';
+	var e = document.getElementById('bb');
+        if(e.style.display=='none')
+		  e.style.display = 'inline';
+		else
+		  e.style.display = 'none';
+		
+	var x = document.getElementById('avi_desc');
+        if(x.style.display=='none')
+		  x.style.display = 'block';
+		else
+		  x.style.display = 'none';
+		
+	var y = document.getElementById('ak');
+		if(y.style.border=='0px')
+		{
+			y.style.border='2px solid white';
+			y.style.borderRadius='4px 4px 4px 4px';
+			y.style.padding='10px';
+			y.style.backgroundColor='#6BADF6';
+			y.style.color='white';
+		}
+		else
+		{
+			y.style.border='0px';
+			y.style.borderRadius='0px 0px 0px 0px';
+			y.style.padding='0px';
+			y.style.backgroundColor='inherit';
+			y.style.color='black';
+		}
+    }
+	function show_naren_desc(){
+	var l = document.getElementById('credits');
+        if(l.style.height!=='450%')
+		  l.style.height = '450%';
+		else
+		  l.style.display = '254%';	
+	var q = document.getElementById('zz');
+        if(q.style.display=='none')
+		  q.style.display = 'inline';
+		else
+		  q.style.display = 'none';
+    var w = document.getElementById('ak');
+        if(w.style.display=='none')
+		  w.style.display = 'inline';
+		else
+		  w.style.display = 'none';
+	var e = document.getElementById('vv');
+        if(e.style.display=='none')
+		  e.style.display = 'inline';
+		else
+		  e.style.display = 'none';
+	var x = document.getElementById('naren_desc');
+        if(x.style.display=='none')
+		  x.style.display = 'block';
+		else
+		  x.style.display = 'none';
+	var z = document.getElementById('xx');
+        if(z.style.display=='none')
+		  z.style.display = 'block';
+		else
+		  z.style.display = 'none';	
+	var y = document.getElementById('bk');
+		if(y.style.border=='0px')
+		{
+			y.style.border='2px solid white';
+			y.style.borderRadius='4px 4px 4px 4px';
+			y.style.padding='10px';
+			y.style.backgroundColor='#6BADF6';
+			y.style.color='white';
+		}
+		else
+		{
+			y.style.border='0px';
+			y.style.borderRadius='0px 0px 0px 0px';
+			y.style.padding='0px';
+			y.style.backgroundColor='inherit';
+			y.style.color='black';
+		}
+    }
+	function hide_darrow(){
+	var x = document.getElementById('down');
+        x.style.display = 'none';
+    }
+	function hide_ddarrow(){
+	var x = document.getElementById('ddown');
+        x.style.display = 'none';
+    }
+</script>
+
+  <avik>Credits :</avik><br><br><br><div style="display: inline-block">
+	<avi id="zz" style:"display:inline;" >          Devloper</avi><avi id="cc" style:"display:inline;">                                              Project Supervisor</avi><br><br>                                  <ak onClick="show_avi_desc()" id="ak" style="border:0px;border-radius:0px;padding:0px;background-color:inherit;display:inline;"><u>Avinash Karhana</u></ak>                                                                                                                  <ak onClick="show_naren_desc()" id="bk" style="border:0px;border-radius:0px;padding:0px;background-color:inherit;display:inline;"><u>Dr. Narender Rawal</u></ak><br><br>                                          <img src="Why HMS_files/avi_dark.jpg" alt="Avinash Karhana" id="vv" onClick="show_avi_desc()" style="cursor: pointer;" />                                                                                                                                          <img src="Why HMS_files/naren.jpg" alt="Dr. Narender Rawal" id="bb" onClick="show_naren_desc()" style="cursor: pointer;display: inline;" />
+	<div id="avi_desc" style="display: none;"><p class="description">I am PHP Developer and a passionate coder currently persuing B.Tech in Computer Science And Engineering.I'm fond of developing modern web applications and reserching application vulnerabilities and holes.</p>
+	<div id="footer-contact-note">
+	<div class="footer-contact-banner-title">Let's get to work.</div>
+	<div id="footer-photo">
+		<img src="Why HMS_files/avi.jpg" alt="Vincy" width="100" height="100" title="Avinash Karhana">
+	</div>
+	<div id="footer-intro">I love the web and passionate in software
+		development. I provide
+		application development, enhancement, and problem-solving services.</div>
+	<div id="footer-button-container">
+		<a id="footer-contact-navigation" href="mailto:avinashkarhana1@gmail.com?subject=HMS Contact me user redirect mail">Contact Me</a>
+	</div>
+		<br><br><br>
+</div><br><br><br>
+<div style="margin-left:2px;background-color:#AFB9F8;padding-left: 2px;">
+	<div style="padding:2px;margin-left: 2px; cursor: pointer;background-color:inherit; color:azure;pointer;font-size:50 ;font-family:qwigley,cursive ; font-weight: bolder" onMouseOver="show_darrow()" onMouseOut="hide_darrow()" onClick="show_czone()">My comfort Zone  <img style="cursor: pointer; display: none;" id="down" src="Why HMS_files/down_arrow.png" /><hr style="margin-top:3px;margin-left: 0.6;width:40%;background-color:#FFF8F8;border:1.3px solid #FFF8F8;"></div><br><div id="czone" style="border: medium;color:aquamarine;display: none; height:60px;width:auto"><a id="footer-contact-navigation" alt="php">PHP</a> <a id="footer-contact-navigation" alt="MySql">Mysql</a> <a id="footer-contact-navigation" alt="css">CSS</a></div></div>
+
+	<br><br><br><br><p class="fheading">Follow me on Social web:</p>
+<div class="follow">
+	<a href="https://plus.google.com/100244723830033343150" title="Google Plus" target="_blank"><img src="Why HMS_files/googleplus.png" alt="Google Plus" ></a><a class="linkedin" href="https://www.instagram.com/avi_k29" title="Instagram" target="_blank"><img src="Why HMS_files/instagram.png" alt="Instagram" height=20 width=20/></a><a class="facebook" href="https://www.facebook.com/Avinash.Karhana29" title="Facebook" target="_blank"><img src="Why HMS_files/facebook.png" alt="Facebook"></a></div></div>
+	</div><br><br><hr><hr>
+	<div>
+		<br><div id="xx" class="designation" style="display: none"><p style="font-size:27 ;">Assistant Professor, Department of Computer Science And Engineering<br>Hemvati Nandan Bahuguna Garhwal University<br>Ph.D Computer Science (IIT Roorkee)<br>M.Tech Computer Science and  Engineering (IIT Roorkee)</p></div><br><div id="naren_desc" style="display: none;"><p class="description">
+		
+		<p style="font-size:22 ;"><strong>Research Supervision (No. of Ph.D. Degree Awarded/ Registered):</strong></p><br><br>
+
+		<strong>Administrative Experience</strong><br><p style="font-size:18 ;">
+1.	Coordinator, E-Governance (Developed different projects to provide facilities for  Students to online applications for examination form,  Staff to provided online pay slip and  Ph.D /M.Phil Entrance Test Application System)<br>
+2.	Coordinator Spoken Tutorial Project, HNBGU, Sponsored by MHRD  (Organized workshops on freeware open source software)<br>
+3.	Member, Board of Study, Department of Computer Science and Engineering
+		Conference/Symposium/Workshop Attended during last five years (2012-2017).</p><br><br>
+
+		<strong>International</strong><br><p style="font-size:18 ;">
+1.	Presented Paper, International Conference on Advances in Modeling, Optimization and Computing, December 5-7,2011, IIT Roorkee,2011<br>
+		2.	Presented Paper, International Conference on Innovative Advancements in Engineering and Technology ,March 7-8,2014, Jaipur National University,  2014</p><br><br>
+		<strong>National</strong><br><p style="font-size:18 ;">
+		1.	Attended ,Library Orientation Program and Workshop on Scopus and ScienceDirect February 27,2012 IIT Roorke,2012</p><br><br>
+	
+		<strong>Best Peer-Reviewed Publications 2009 onwards (up to 05)</strong><br><br>
+
+		<strong>Journals</strong><br><p style="font-size:18 ;">
+1.	Narender Kumar, Tanuja Srivastava (2011), ”A PSO Based Approach to Image Reconstruction from Projections”, International Journal of Tomography & Statistics, 2011,Volume 17, pp 29-38.  <br>
+2.	Narender Kumar, Tanuja Srivastava (2011), ”Genetic algorithm for reconstruction under Periodicity Constraints “International Journal of Imaging and Robotics, Volume 5, pp 18-27.<br>  
+3.	 Kapil Chaudhary, Dr. Narendra Kumar, Dr. Vipin Kumar Saini (2014),” A New Approach to Image Denoising based on Diffusion-MLP-LMMSE Scheme” International Journal of Software and Web Sciences (IJSWS), Volume 5,  Issue 9, pp 11-17. <br>
+4.	Roshan Lal, Dr. Narender Kumar (2014), ”Design and Analysis of Reliability for Component-Based Software System by using Soft Computing Approaches” International Journal of Emerging Technology and Advanced Engineering, Volume 4, Issue 6, pp 929-932<br>
+		5.	Kapil Chaudhary, Dr. Narendra Kumar, (2015),"An Neural Based Approach for Optimizing Diffusion Wavlets Cofficients (An Application to image Denoising)"  International Journal of Emerging Trends & Technology in Computer Science (IJETTCS),Volume 4, Issue 3, May - June 2015 , pp. 164-168</p><br><br>
+
+        <strong>Proceedings </strong><br><p style="font-size:18 ;">
+1.	Narender Kumar and Tanuja Srivastava (2010), “Image Reconstruction from Projection under Periodicity Constraints Using Genetic Algorithm”, Communications in Computer and Information Science, Volume 94, Part 3, pp 76-83. ISBN 978-3-642-14834-7<br>
+2.	Kapil Chaudhary, Narender Kumar and V. K. Saini(2014) " Image Denoising Based on Diffusion Wavelet, MLP-LMMSE Algorithm " RESEARCH PUBLISHING,ISBN: 978-981-09-5247-1</p><br><br>
+
+Total Number of Research Publications: 9<br>
+
+	
+		
+	</p>
+	<div id="footer-contact-note">
+	<div class="footer-contact-banner-title">Got queries,projects to work on or question to ask ?</div>
+	<div id="footer-photo">
+		<img src="Why HMS_files/naren1.jpg" alt="Dr. Narender Rawal" width="100" height="100" title="Dr. Narender Rawal">
+	</div>
+	<div id="footer-intro">I will help.</div>
+	<div id="footer-button-container">
+		<a id="footer-contact-navigation" href="mailto:narenrawal@gmail.com?subject=HMS Contact me user redirect mail">Contact Me</a>
+	</div>
+		<br><br><br>
+</div><br><br><br>
+<div style="margin-left:2px;background-color:#AFB9F8;padding-left: 2px;">
+	<div style="padding:2px;margin-left: 2px; cursor: pointer;background-color:inherit; color:azure;pointer;font-size:50 ;font-family:qwigley,cursive ; font-weight: bolder" onMouseOver="show_ddarrow()" onMouseOut="hide_ddarrow()" onClick="show_dczone()">My comfort Zone  <img style="cursor: pointer; display: none;" id="ddown" src="Why HMS_files/down_arrow.png" /><hr style="margin-top:3px;margin-left: 0.6;width:40%;background-color:#FFF8F8;border:1.3px solid #FFF8F8;"></div><br><div id="dczone" style="border: medium;color:aquamarine;display: none; height:120px;width:auto"><a id="footer-contact-navigation" alt="php">PHP</a> <a id="footer-contact-navigation" alt="MySql">Mysql</a> <a id="footer-contact-navigation" alt="Cryptography">CRYPTOGRAPHY</a> <a id="footer-contact-navigation" alt="Image Analysis">IMAGE ANALYSIS</a> <a id="footer-contact-navigation" alt="Data Mining">DATA MINING</a><br><br><br><a id="footer-contact-navigation" alt="Advance Data Structures">ADVANCE DATA STRUCTURES</a></div></div>
+
+	<br><br><br><br>
+	<!---<p class="fheading">Follow me on Social web:</p>
+    <div class="follow"></a><a class="facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"><img src="Why HMS_files/facebook.png" alt="Facebook"></a></div>
+    --->
+	
+	</div>
+	</div></div>
+<div class=WordSection1 style="position: relative;
+width:100%;height:100%; z-index:5;">
+  <p class=MsoTitle>
+            Hostel Management System (HMS)<hr width=60% noshade>
+          </p><br><br>
+  <p class=MsoSubtitle>
+            Go Through
+          </p>
+    <w:wrap type="square" anchorx="margin" anchory="margin"/>
+    </v:shape>
+    <span><span><span
+ style='font-size:12.0pt;'>
+    <w:sdtPr></w:sdtPr>
+    </span></span></span>
+    </p>
+    <br clear=all style='page-break-before:
+ always'>
+  </w:Sdt>
+  <h1><span class=Heading1Char>Why HMS?</span></h1>
+  <p>                     A big question to those who like it in legacy way (old paper
+    based).</p>
+  <p>                     And answer to this, if we want conclude in one sentence,
+    then it can be </p>
+  <p>                     ‘To save our most valuable entity “time” ultimately. ‘</p><br><br>
+  <p style="color:#E8AA4B; font-weight: bold">But on other hand if we elaborate this we come up with:</p>
+  <p class=MsoListParagraphCxSpFirst><span
+style='font-family:Wingdings;'>  <span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>      365x24x7 Official work
+    support (boon to those Saturday /Sunday haters.)</p>
+ <div style="margin-left: 50px;"> <p class=MsoListParagraphCxSpMiddle><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>Free from all that paper
+    and form hassle.</p>
+  <p class=MsoListParagraphCxSpMiddle><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>Have to apply for hostel?
+    do it online on HMS, we made it convenient.</p>
+  <p class=MsoListParagraphCxSpMiddle><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>Are you waiting for
+    Allotment procedure to finish and allotted list?  </p>
+  <p class=MsoListParagraphCxSpMiddle>Don’t worry, now HMS is there it will notify you on your HMS profile if
+    you are allotted any seat (it’s easy no need to visit offices to check list).</p>
+  <p class=MsoListParagraphCxSpMiddle><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>Have to pay hostel fees?
+    its super easy do it online with your Card (Rest your body because now no more
+    hassle of going to bank for fee payment).</p>
+  <p class=MsoListParagraphCxSpMiddle><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>Simple UI makes it super
+    easy to use (makes it convenient for students to interact to hostel
+    authorities).</p>
+  <p class=MsoListParagraphCxSpMiddle><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>No ques, no waiting (rest
+    your legs and peace your mind because, No more walks to offices).</p>
+  <p class=MsoListParagraphCxSpLast><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>Got complaints but stucked
+	  somewhere? no problem, do it on the go from your HMS profile (for hostlers).</p></div><br><br>
+  <p><span style='font-size:22.0pt;
+line-height:110%;font-family:Vivaldi'>“And that’s how we saved your time and
+    efforts by cutting down chunks of time from various official and non-official
+    tasks.” </span></p><br><br><br>
+  <h1><span class=Heading1Char>How to do it in right way?</span></h1>
+  <div style="margin-left: 40px;"><p>&nbsp;</p>
+  <p class=MsoListParagraphCxSpFirst><span
+style='font-family:Wingdings;'>Ø<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span style='font-size:
+12.0pt;line-height:110%'>For new hostel applicants</span>:</p><div style="margin-left: 45px;">
+  <p class=MsoListParagraphCxSpMiddle><span>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Go to HMS homepage and go
+    to Student registration link </p>
+  <p class=MsoListParagraphCxSpMiddle><span>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Fill out the required
+    details. (like Addhar Number as your username, name mobile, etc.)</p>
+  <p class=MsoListParagraphCxSpMiddle><span>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Now click Register to save
+	  and register.</p>
+  <p class=MsoListParagraphCxSpMiddle>Your done here it’s that simple.</p>
+  <p class=MsoListParagraphCxSpMiddle><span
+style='font-family:Wingdings;'>ü<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span>things to remember “if you
+    get any kind of error while registering (except primary key delicacy, in case
+    of this error recheck your Addhar because its already registered with HMS
+    causing this error) contact technical helpdesk.” </p>
+  <p class=MsoListParagraphCxSpMiddle><span>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Now login with your login
+    credentials and fill rest of details.</p>
+  <p class=MsoListParagraphCxSpMiddle><span>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>After this fill out and
+    save hostel preferences.</p>
+  <p class=MsoListParagraphCxSpMiddle><span>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Now After This Go to
+    Application form section and Check full details in form and Click <span
+style='font-size:11.0pt;line-height:110%;color:#4E5B6F;'>‘I
+    Agree Button’ </span>(This is very important because without pressing this
+    button registration will be canceled automatically after last date of agreeing)</p>
+  <p class=MsoListParagraphCxSpMiddle><span>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>After this take a print out
+    of this application form and submit it to Chief Warden office with a copy of your
+    University ID Card for verification of form.</p>
+  <p class=MsoListParagraphCxSpMiddle><span>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>And here your part ends.
+    Now wait and check your form verification status, if your form gets verified by
+    admin then wait for allotment process to complete and if you are allotted any
+    seat you will be notified on you HMS profile. (But if your form does not get
+    verified and you think you was eligible then contact administration personally
+    via mail or call or even face to face if required).</p>
+  <p class=MsoListParagraphCxSpMiddle><span>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>If you are allotted a
+    hostel, then pay given amount of fee for seat reserving in given time period or
+    after given time limit your allotment will be canceled.</p>
+  <p class=MsoListParagraphCxSpMiddle><span>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>After successful payment
+    and payment confirmation on HMS you profile gets another option to choose seat
+    in hostel where it shows all available seats and you can choose any available
+    seat.</p></div>
+  <p class=MsoListParagraphCxSpMiddle>Here this process ends.</p>
+  <p class=MsoListParagraphCxSpMiddle>&nbsp;</p>
+  <p class=MsoListParagraphCxSpMiddle><span
+style='font-size:12.0pt;line-height:110%;font-family:Wingdings;'>Ø<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span style='font-size:12.0pt;line-height:110%'>For current
+    hostlers:</span></p>
+  <p class=MsoListParagraphCxSpMiddle>For those who lives in hostel HMS may seem to have less use, but it’s not
+    like what it seems to be it’s an important tool for hostlers as:</p><div style="margin-left: 45px;">
+  <p class=MsoListParagraphCxSpMiddle><span>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>It provides you On the go
+    facility to register any complaint and also check whether your request or
+    complaint has been considered or not.</p>
+  <p class=MsoListParagraphCxSpMiddle><span>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Reminds you to pay fee on
+    time.</p>
+  <p class=MsoListParagraphCxSpMiddle><span>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Get your warden and
+    care-taker details on the go no need to worry if your warden or care-taker
+	  changes.</p></div></div>
+  <p>And that’s how we go </p>
+  <p>Thanks if you really read all this.</p>
+  <p>&nbsp;</p>
+  <p>Want to read credits?<br><button class="btn" onClick="show()">Yes</button>  <button class="btn" onClick="location.href='index.php'" alt="Home">No</button></p><br><br>
+</div>
+</body>
+</html>
